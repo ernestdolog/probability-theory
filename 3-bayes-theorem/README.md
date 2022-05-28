@@ -28,7 +28,7 @@ What is the thought here?
 
 Apples come from sources: 20%, 30%, 50%
 
-But as we know that the event that the apple is bad is certain, so possibilities change: 0%, 25%, 75%
+But as we know that the event that the apple is bad is certain, so possibilities change, because first source doesn't provide bad apples
 
 This is where Bayes Theorem comes to help us: We would like to calculate the possibility of an earlier happened $B_k$ event in the condition of a later happened A event.
 
@@ -38,3 +38,20 @@ $$ P(B_k|A) = {{ P(A|B_k) \times P(B_k) } \over {\sum_{n=1}^n P(A|B_n) \times P(
 
 $$ P(B_k|A) = {{ P(A|B_k) \times P(B_k) } \over {P(A|B_1) \times P(B_1) + P(A|B_2) \times P(B_2) + P(A|B_3) \times P(B_3) + ... + P(A|B_n) \times P(B_n)}} $$
 
+> We want $B_k$ possibility if we know A event certainly happened (`P(A)=1`). So we get the possibility of A, if $B_k$ certainly happened, times $B_k$ possibility. Than this we divide by cumulated this possibility for each and any $B_n$ events (with actually P(A) according the full possibility theorem).
+
+Let's see the situation with numbers:
+
+$P(B_1) = 0,2$
+
+$P(A|B_1) = 0,00$
+
+$P(B_2) = 0,3$
+
+$P(A|B_2) = 0,05$
+
+$P(B_3) = 0,5$
+
+$P(A|B_3) = 0,15$
+
+$$ P(B_3|A) = {{ 0,15 \times 0,5 } \over {0,00 \times 0,2 + 0,05 \times 0,3 + 0,15 \times 0,5}} = 0,83 $$
