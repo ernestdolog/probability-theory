@@ -32,7 +32,7 @@ A event: greater than 2
 
 B event: even number
 
-Union of 2 events
+Union of 2 events:
 \$ P(A \cup B) = {4  \over 6}$
 > {3, 4, 5, 6}
 
