@@ -48,13 +48,13 @@ $ P(A) = 0,7 $
 
 $ P(B) = 0,6 $
 
-$ P(A \cap B) = 0,9 $
+$ P(A \cup B) = 0,9 $
 
-$ P(A \cap B) = P(A) + P(B) - P(A \cup B) $
+$ P(A \cup B) = P(A) + P(B) - P(A \cap B) $
 
-$ 0,9 = 0,7 + 0,6 - P(A \cup B) $
+$ 0,9 = 0,7 + 0,6 - P(A \cap B) $
 
-$ P(A \cup B) = 0,4 $
+$ P(A \cap B) = 0,4 $
 
 $\color{red} 0,42 = 0,7 \times 0,6 \neq 0,4 $
 
