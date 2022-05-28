@@ -35,18 +35,15 @@ Try to express what we want in words, using **AND**/**OR**. **AND** indicates mu
 
 ### Permutation:
 > How many ways can 5 people sit down in 5 seats?
-```sh
-5 * 4 * 3 * 2 * 1 = 5!
-```
 
-$$ 5\times4\times3\times2\times1 = 5!$$
+\$$ 5\times4\times3\times2\times1 = 5!$$
 
 ### Variation:
 > How many ways can 3 people out of 5 sit down next to each other in a bench?
-$$ 5\times4\times3 = 60$$
+\$$ 5\times4\times3 = 60$$
 It is exactly like **Permutation** but here we don't put everyone in, just those who we chose.
 
-$$ n\times(n-1)\times(n-2)\times...\times(n-k+1) = \sum_{k=1}^n (n-k+1) = {n!  \over(n-k)}$$
+\$$ n\times(n-1)\times(n-2)\times...\times(n-k+1) = \sum_{k=1}^n (n-k+1) = {n!  \over(n-k)}$$
 
 > Most pocket calculators have a button for it. `npr` - 5`npr`3 meaning: how many ways can we put 3 out of 5 ppl next to each other
 
