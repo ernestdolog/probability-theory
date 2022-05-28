@@ -45,7 +45,7 @@ $$ 5\times4\times3 = 60$$
 It is exactly like **Permutation** but here we don't put everyone in, just those who we chose.
 \
 $$ n\times(n-1)\times(n-2)\times...\times(n-k+1) = \sum_{k=1}^n (n-k+1) = {n!  \over(n-k)}$$
-\
+
 > Most pocket calculators have a button for it. `npr` - 5`npr`3 meaning: how many ways can we put 3 out of 5 ppl next to each other
 
 ### Combination:
