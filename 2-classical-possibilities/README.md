@@ -33,9 +33,13 @@ A event: greater than 2
 B event: even number
 
 Union of 2 events:
-\$ P(A \cup B) = {4  \over 6}$
+
+$ P(A \cup B) = {4  \over 6}$
+
 > {3, 4, 5, 6}
 
 Segment of 2 events:
-\$ P(A \cap B) = {2  \over 6}$
+
+$ P(A \cap B) = {2  \over 6}$
+
 > {4, 6}
