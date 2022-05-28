@@ -56,6 +56,6 @@ $ 0,9 = 0,7 + 0,6 - P(A \cup B) $
 
 $ P(A \cup B) = 0,4 $
 
-$color{red} 0,42 = 0,7 \times 0,6 \neq 0,4 $
+$\color{red} 0,42 = 0,7 \times 0,6 \neq 0,4 $
 
 So these event are **NOT INDEPENDENT**.
