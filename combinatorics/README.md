@@ -39,7 +39,7 @@ Try to express what we want in words, using **AND**/**OR**. **AND** indicates mu
 \$$ 5\times4\times3\times2\times1 = 5!$$
 
 ### Variation:
-> How many ways can 3 people out of 5 sit down next to each other in a bench?
+> How many ways can 3 people out of 5 sit down next to each other in a bench?\n
 \$$ 5\times4\times3 = 60$$
 It is exactly like **Permutation** but here we don't put everyone in, just those who we chose.
 
