@@ -28,13 +28,13 @@ What is the thought here?
 
 Apples come from sources: 20%, 30%, 50%
 
-But as we know that the event that the apple is bad is certain, so possibilities change:
-
-0%, 25%, 75%
+But as we know that the event that the apple is bad is certain, so possibilities change: 0%, 25%, 75%
 
 This is where Bayes Theorem comes to help us: We would like to calculate the possibility of an earlier happened $B_k$ event in the condition of a later happened A event.
 
 May $B_1, B_2 ... B_n$ be a full event system, and A as a random event. So for any $B_k$ event:
 
-$$ P(B_k|A) = {{ P(A|B_k) \times P(B_k) } \over {\sum_{n=1}^n P(A|B_n) \times P(B_n)}} = {{ P(A|B_k) \times P(B_k) } \over {P(A|B_1) \times P(B_1) + P(A|B_2) \times P(B_2) + P(A|B_3) \times P(B_3) + ... + P(A|B_n) \times P(B_n)}} $$
+$$ P(B_k|A) = {{ P(A|B_k) \times P(B_k) } \over {\sum_{n=1}^n P(A|B_n) \times P(B_n)}} $$
+
+$$ P(B_k|A) = {{ P(A|B_k) \times P(B_k) } \over {P(A|B_1) \times P(B_1) + P(A|B_2) \times P(B_2) + P(A|B_3) \times P(B_3) + ... + P(A|B_n) \times P(B_n)}} $$
 
