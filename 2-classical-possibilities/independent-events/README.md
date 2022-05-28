@@ -38,3 +38,24 @@ $\color{red} {2\over 6} = {3\over 6} \times {2\over 6} $
 So B and C events aren't indeendent events. :)
 
 > The above means: Throwing an odd number, or throwing 3 or 5 are not independent events. Later event is part of the previous event. Always try to model problems down to simple, down to earth words. :))
+
+
+## A situation:
+
+### An insurance company have many clients. 70% has car insurance, 60% has home insurance, 90% has at least 1 from car or home insurance. Are these events independent from each other?
+
+$ P(A) = 0,7 $
+
+$ P(B) = 0,6 $
+
+$ P(A \cap B) = 0,9 $
+
+$ P(A \cap B) = P(A) + P(B) - P(A \cup B) $
+
+$ 0,9 = 0,7 + 0,6 - P(A \cup B) $
+
+$ P(A \cup B) = 0,4 $
+
+$color{red} 0,42 = 0,7 \times 0,6 \neq 0,4 $
+
+So these event are **NOT INDEPENDENT**.
