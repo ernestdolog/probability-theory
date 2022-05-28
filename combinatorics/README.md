@@ -97,4 +97,41 @@ So what did we agree upon **multiplication** and **addition**?: Passenger 1 can 
 
 so:
 
-$$ 5\times5\times5\times5\times...\times5 = 5^20$$
+$$ 5\times5\times5\times5\times...\times5 = 5^{20}$$
+
+### There are 20 people who can win 5 sort of gifts. How many ways is it possible if one person can only win one gift?
+
+```
+a <- can get 5 sorts of gifts
+b <- can get 4 ... but what if the first person didn't win one at all? -> than it is five
+c 
+d 
+e 
+f
+g
+...
+k
+```
+
+Again we got some problems.
+
+Let's change ordering, and order person to gift:
+
+```
+A <- we can give it to 20 ppl
+B <- we can give it to 19 ppl
+C <- we can give it to 18 ppl
+D <- we can give it to 17 ppl
+E <- we can give it to 16 ppl
+```
+
+$$ 20\times19\times18\times17\times16 = very much$$
+
+
+### There are 20 people who can win 5 sort of gifts. How many ways is it possible if one person can only win one gift, but gifts are all the very same?
+
+> Here comes some maths philosophy: if stuff are the very same, order does not matter. So: we do not care if A can get to 5 and B can get to 4, there is no A and B, no ordering this to that. -> In this case we choose 5 people from 20 who gets A PRESENT. Tone here is on **A PRESENT** not, on present A, B, C, D. 
+
+This is a combination: how can we choose 5 from 20
+
+$$ {20 \choose 5} = {20! \over 5!(15)!} = very much$$
