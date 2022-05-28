@@ -22,7 +22,7 @@ How big is the possibility of A, **in condition** that we know that B surely hap
 
 It means, we have to reduce all elementary events to `{4, 5, 6}`, because we know B happens.
 
-so $ P(A)_new = {1 \over 3} $
+so $ P(A)_{new} = {1 \over 3} $
 
 We have a sign for this:
 
