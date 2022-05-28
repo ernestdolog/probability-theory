@@ -32,7 +32,7 @@ lemon
 Try to express what we want in words, using **AND**/**OR**. **AND** indicates multiplication, **OR** indicates addition. This simple.
 
 ## Main topics:
-\
+
 ### Permutation:
 > How many ways can 5 people sit down in 5 seats?
 
