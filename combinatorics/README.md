@@ -1,6 +1,6 @@
 # Combinatorics
 
-This thingy is about how many ways do we differentiate in equally possible choices of n choosable in x combinations.
+This thingy is about how many ways stuff can happen? How many possible variations we got?
 
 > For example how many ways can we seat 5 people in 5 places:
 
@@ -49,5 +49,52 @@ $$ n\times(n-1)\times(n-2)\times...\times(n-k+1) = \sum_{k=1}^n (n-k+1) = {n!  \
 > Most pocket calculators have a button for it. `npr` - 5`npr`3 meaning: how many ways can we put 3 out of 5 ppl next to each other
 
 ### Combination:
->
+> How many ways can we choose 3 people out of 5.
 
+$$ {5 \choose 3}$$
+
+Funfact:
+
+$$ {5 \choose 3} = {5 \choose 2}$$
+
+Because if you would like to choose 3 fingers in one of your hand, you already choose 2.
+
+> Most pocket calculators have a button for it. `ncr` - 5`ncr`3 meaning: how many ways can we choose 3 out of 5 ppl
+
+$$ {n \choose k} = {n! \over k!(n-k)!}$$
+
+## Some situations it comes handy:
+
+### There are 20 people travelling in a bus at a point of time. The bus at this point of time have 5 stops to come. Through this following 5 stops all passengers leave the bus. How many variations can it happen?
+
+- here are the stops:
+
+```
+x <- 20 people can possibly leave
+x <- 20 people could possibly leave, but we have NO CLUE how many left at the previous step
+x 
+x 
+x 
+```
+
+Seemingly at the second step we got a problem. Here comes a **handy tip**:
+> Whenever we are trying to solve smth with combinatorics, and we can't provide a solution. Solve it with **a chainsaw**. Either by turning around the problem. (turning around what do i order to what, f ex i used to render the passengers to the stops -> so than let's render the stops to the passengers ^^)
+
+```
+x <- 5 stops he can choose from
+x <- 5 stops he can choose from
+x <- 5 stops he can choose from
+x <- 5 stops he can choose from
+x <- 5 stops he can choose from
+x <- 5 stops he can choose from
+x <- 5 stops he can choose from
+x <- 5 stops he can choose from
+...
+x <- 5 stops he can choose from
+```
+
+So what did we agree upon **multiplication** and **addition**?: Passenger 1 can choose between 5 stops **AND** passenger 2 can ...
+
+so:
+
+$$ 5\times5\times5\times5\times...\times5 = 5^20$$
