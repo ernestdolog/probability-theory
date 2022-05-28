@@ -22,7 +22,7 @@ Events what build up from more elementary events:
 
 Events have possibilities, what we get:
 
-$$ P(A) = {count how many times an event happens  \over count how many elementary events we got} = {4 (greater than 2)  \over 6 (elementary events)}$$
+$$ P(A) = {count_how_many_times_an_event_happens  \over count_how_many_elementary_events_we_got} = {4 (greater_than_2)  \over 6 (elementary_events)}$$
 
 > P -> possibility, A -> name of event
 
@@ -33,9 +33,9 @@ A event: greater than 2
 B event: even number
 
 Union of 2 events
-$$ P(A\cupB) = {4  \over 6}$$
+$$ P(A \cup B) = {4  \over 6}$$
 > {3, 4, 5, 6}
 
 Segment of 2 events:
-$$ P(A\capB) = {2  \over 6}$$
+$$ P(A \cap B) = {2  \over 6}$$
 > {4, 6}
