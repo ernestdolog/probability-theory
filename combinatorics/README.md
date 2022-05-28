@@ -134,4 +134,4 @@ $$ 20\times19\times18\times17\times16 = very much$$
 
 This is a combination: how can we choose 5 from 20
 
-$$ {20 \choose 5} = {20! \over 5!(15)!} = very much$$
+$$ {20 \choose 5} = {20! \over 5!(15)!} = 15504$$
