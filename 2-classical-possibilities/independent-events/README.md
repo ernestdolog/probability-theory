@@ -59,3 +59,19 @@ $ P(A \cap B) = 0,4 $
 $\color{red} 0,42 = 0,7 \times 0,6 \neq 0,4 $
 
 So these event are **NOT INDEPENDENT**.
+
+### An insurance company have many clients. 70% has car insurance, 20% has home insurance and no car insurance, how many percent has car insurance, if we know that car insurance and home insurance are independent events?
+
+$ P(A) = 0,7 $
+
+$ P(B) = ? $
+
+$ P(B\A) = P(B) - P(B \cap A) = 0,2 $
+
+$ 0,2 = P(B) - 0,7 \times P(B)$
+
+$ {0,2 \over P(B)} = 1 - 0,7 = 0,3$
+
+$ 0,2 = 0,3 \times P(B)$
+
+$\color{green}  {2 \over 3} = P(B)$
