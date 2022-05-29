@@ -8,11 +8,11 @@ $\color{orange} P(X<10) = ?$
 
 $T = r^2 \times π$
 
-$P(X<10) = {10^2 \times π} \over {50^2 \times π} = {1 \over 25}$
+$P(X<10) = {{10^2 \times π} \over {50^2 \times π}} = {1 \over 25}$
 
-$P(X<20) = {20^2 \times π} \over {50^2 \times π} = {4 \over 25}$
+$P(X<20) = {{20^2 \times π} \over {50^2 \times π}} = {4 \over 25}$
 
-$P(X < x) = {x^2 \times π} \over {50^2 \times π}$
+$P(X < x) = {{x^2 \times π} \over {50^2 \times π}}$
 
 This is meaning that the possibility of the fellow hits into a given radius circle in a 50cm redius target is such...
 
@@ -22,12 +22,12 @@ But, it has edge values:
 
 let's correct our function:
 
-$   P(X < x) =
+$$   P(X < x) =
 \begin{cases}
 0,  & \text{if $x$ $\leq$ 0} \\
 {x^2} \over {50^2}, & \text{if 0 $\lt$ $x$ $\leq$ 50} \\
 1,  & \text{if 50 $\lt$ $x$} \\
-\end{cases} $
+\end{cases} $$
 
 so what we are getting here is a function, what we can write like this:
 
