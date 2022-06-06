@@ -52,5 +52,6 @@ Let's calculate it's **expected value**:
 
 So as our formula says:
 
-$$E(X)=\int_{-\infty}^{+\infty} x \times f(x)\ dx= \int_{-\infty}^{-1}x \times {\frac{1}{x^4}}\ dx + \int_{-1}^{0}x \times({-x^2-2x})\ dx +  \int_{0}^{+\infty}x \times 0\ dx = \left[ \frac{x^{-2}}{-2} \right]_{-\infty}^{-1} + \left[ -{\frac{x^{4}}{4}-2 \times \frac{x^{3}}{3}} \right]_{-1}^{0} + 0 = -\frac{1}{2}+ \ -\frac{5}{12} = -\frac{11}{12}$$
+$$E(X)=\int_{-\infty}^{+\infty} x \times f(x)\ dx= \int_{-\infty}^{-1}x \times {\frac{1}{x^4}}\ dx + \int_{-1}^{0}x \times({-x^2-2x})\ dx +  \int_{0}^{+\infty}x \times 0\ dx = \left[ {\frac{x^{-2}}{-2}} \right]_{-\infty}^{-1} + \left[ -{{\frac{x^{4}}{4} }- 2 \times {\frac{x^{3}}{3}}} \right]_{-1}^{0} + 0 = -\frac{1}{2}+ \ -\frac{5}{12} = -\frac{11}{12}$$
+
 
