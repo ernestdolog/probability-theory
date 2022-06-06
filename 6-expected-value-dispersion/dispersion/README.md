@@ -28,7 +28,7 @@ $$E(X^2)=\int_{-\infty}^{+\infty} x^2 \ f(x) \ dx$$
 
 In case of our example of **Continouos Probability Variables** at **expected value** section value would be:
 
-$$E(X^2)=\int_{-\infty}^{+\infty} x^2 \ f(x) \ dx = \int_{-\infty}^{-1} x^{-2} \ dx + \int_{-1}^{0} -x^4-2x^3 \ dx = \left[{\frac{x^{-1}}{-1}}\right]_{-\infty}^{-1} + \left[-{\frac{x^{5}}{5}-2 \times \frac{x^{4}}{4}}\right]_{-1}^{0} + 0 = {\frac{13}{10}}$$
+$E(X^2)=\int_{-\infty}^{+\infty} x^2 \ f(x) \ dx = \int_{-\infty}^{-1} x^{-2} \ dx + \int_{-1}^{0} -x^4-2x^3 \ dx = \left[ {\frac{x^{-1}}{-1}} \right]_{-\infty}^{-1} + \left[ -{\frac{x^{5}}{5} - 2 \times \frac{x^{4}}{4}} \right]_{-1}^{0} + 0 = {\frac{13}{10}}$
 
 $E^2(X) = (-{\frac{11}{12}})^2$
 
