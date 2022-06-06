@@ -27,4 +27,6 @@ So, let's use our formula:
 
 $E(X)=\sum X_i \times P(X_i) = 40 \times 0,487 + 30 \times 0,25 + 20 \times 0,128 + 0 \times 0,135 = 29,54$
 
+It does not mean that we can count with exactly this value. It means that exact values what can come out will be around this number.
+
 So, this might not be a startup idea.
