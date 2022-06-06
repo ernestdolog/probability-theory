@@ -30,3 +30,26 @@ $E(X)=\sum X_i \times P(X_i) = 40 \times 0,487 + 30 \times 0,25 + 20 \times 0,12
 It does not mean that we can count with exactly this value. It means that exact values what can come out will be around this number.
 
 So, this might not be a startup idea.
+
+## Expected Value of Continouos Probability Variables:
+
+This case:
+
+$$E(X)=\int_{-\infty}^{+\infty} x \times f(x)\ dx$$
+
+Let's see an example... here is a $f(x)$ density function:
+
+$$   f(x) =
+\begin{cases}
+{\frac{1}{x^4}},  & \text{if $x$ $\leq$ -1} \\
+{-x^2-2x}, & \text{if -1 $\lt$ $x$ $\leq$ 0} \\
+0,  & \text{if 0 $\lt$ $x$} \\
+\end{cases} $$
+
+Let's calculate it's **expected value**:
+
+![Expected Value Density Function](https://github.com/ernestdolog/probability-theory/blob/main/assets/expected_value_2.png)
+
+So as our formula says:
+
+$$E(X)=\int_{-\infty}^{+\infty} x \times f(x)\ dx= \int_{-\infty}^{-1}x \times {\frac{1}{x^4}}\ dx + \int_{-1}^{0}x \times({-x^2-2x})\ dx +  \int_{0}^{+\infty}x \times 0\ dx = \left[{\frac{x^{-2}}{-2}}\right]_{-\infty}^{-1} + \left[-{\frac{x^{4}}{4}-2 \times \frac{x^{3}}{3}}\right]_{-1}^{0} + 0 = -\frac{1}{2}+ \ -\frac{5}{12} = -\frac{11}{12}$$
