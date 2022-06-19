@@ -15,3 +15,4 @@ Let's judge with what possibility the amount of products sold by him that day is
 
 We have 2 types of Chebishev equilibrium. One checking events over a stadium, one checking events inside a stadium. Now we will need the 2nd type:
 
+![Chebishev theorem example solution](https://github.com/ernestdolog/probability-theory/blob/main/assets/chebishev_theorem_3.png)
