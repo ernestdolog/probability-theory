@@ -4,6 +4,8 @@ It says that difference from $E(X)$ can't be too big.
 
 ![Chebishev theorem](https://github.com/ernestdolog/probability-theory/blob/main/assets/chebishev_theorem_1.png)
 
+> Possibility, that the **difference from expected value** ($|X-E(X)|$) is greater, than **distribution times $t$** ($t*D(X)$) can maximum be $\frac{1 }{t^2}$
+
 $|X-E(X)|$ means difference from $E(X)$ (expected value). So it doesn't have a big possibility that this difference is too big.
 
 Let's interpret it with a story:
