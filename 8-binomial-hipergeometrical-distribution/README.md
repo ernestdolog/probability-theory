@@ -27,7 +27,9 @@ $P = \binom{n}{k} \cdot p^{k} \cdot (1-p)^{n-k}$
 where:
 
 n = number of all events
+
 k = number of seeked/expected event
+
 p = possibility of seeked/expected event
 
 ### Hypergeometrical Distribution:
@@ -46,6 +48,25 @@ general equity:
 $P(X=k) = \frac{\binom{K}{k}\cdot \binom{N-K}{n-k}}{\binom{N}{n}}$
 
 N = all elements
+
 K = not seeked/expected elements
+
 n = picked elements
+
 k = picked not seeked/expected elements
+
+
+### Difference Between the 2:
+
+**Forget about the reverse or random sampling**, as it's not always the case.
+
+Difference is, that in **Binomial Distribution** we know the **possibility** of the seeked/expected event. (take the dice... we throw yellow with possibility of $\frac{2}{6}$) In **Hypergeometrical Distribution** we know the **number of** seeked/expected elements. (we have 2 yellow balls). It seems like the difference here is the reverse/random. But not... let's have 2 examples to clarify:
+
+
+1) We have a barn where we have 100 fluffy friends, from them 60 are #sheepings. From them we choose 10. What's the possibility, that from the 10, 7 are #sheepings.
+
+
+2) We have a barn where 60% of fluffy friends are #sheepings. From them we choose 10. What's the possibility, that from the 10, 7 are #sheepings.
+
+
+Both examples are both random sampling. As we pick 10 fluffy friends. Still, in the first we know the **number of** seeked/expected elements, and second we know the **possibility** of the seeked/expected event. So first is **Hypergeometrical Distribution**, second is **Binomial Distribution**.
