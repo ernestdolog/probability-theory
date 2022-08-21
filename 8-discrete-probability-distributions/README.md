@@ -104,6 +104,12 @@ X = number of accidents
 
 $P(X=2) = \frac{2,8^{2}}{2!} \times e^{-2,8}$
 
+
+![Discrete Probability Distribution 1](https://github.com/ernestdolog/probability-theory/blob/main/assets/discrete_probability_distribution_1.png)
+
+
+
+
 #### Difference Between Binomial and Hypergeometrical:
 
 **Forget about the reverse or random sampling**, as it's not always the case.
@@ -125,6 +131,3 @@ Both examples are both random sampling. As we pick 10 fluffy friends. Still, in 
 Both cases we know some % value. Wording must be expectedly, usually, something like this. 
 
 Difference is: In **Binomial** we have finite events, in **Poisson** infinite. Finite means, that the number of that event happening logically has an upper limit. One week for example can't have more than 7 weeks.
-
-
-![Discrete Probability Distribution 1](https://github.com/ernestdolog/probability-theory/blob/main/assets/discrete_probability_distribution_1.png)
