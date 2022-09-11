@@ -59,3 +59,30 @@ $$F(10) =
 {e^{-2}} =
 0,135
 $$
+
+### Normal Distribution:
+
+In the Ministry of Silly Walks number of daily clients is describeable by normal distribution. Expected value of daily clients is 560 people, with 40 distribution. What is $P(X<616)$, where $X$ is the number of daily clients.
+
+$E(X) = 560$
+$D(X) = 40$
+
+> Of normal distribution, the density function we can not integral, and distribution function it doesn't have.
+
+What to do:
+
+We will make a special Normal Distribution with $E(X)=0$ and $D(X)=1$. It is called **Standard Normal Distribution**. $f(X)$ of it will be:
+
+$ϕ(z) = \frac{1}{\sqrt{2π}}e^{-\frac{z^2}{2}}$
+
+> This density function is also called **Gauss curve**, which full territory is 1
+
+It's $F(X)$ will be values of a table with name of $Φ(z)$:
+
+![Continous Probability Distribution 3](https://github.com/ernestdolog/probability-theory/blob/main/assets/continous_probability_distribution_3.png)
+
+The **EU** version counts the integral from $-∞$, the **USA** one from 0. Let's not get confused, when we see different values for the same $Φ(z)$. There is always a 0,5 difference (because American counts from 0, which is at half... full $ϕ(z)$ is 1, so half is 0,5).
+
+soooooo.......
+
+$P(X<616) = F(616) = ϕ(\frac{616-μ}{σ}) = ϕ(\frac{616-560}{40}) = ϕ(1,4) = 0,9192$
