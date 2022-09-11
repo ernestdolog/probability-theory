@@ -16,7 +16,7 @@ To get $P$-s, we can do the following:
 
 We are waiting a phone call. (yay! 😱) Call will come between 2p.m. and 7p.m., all times with the same possibility. What is the possibility, that we will get it before 4p.m.?
 
-> X = what is the time
+> X = what is the current time
 
 $P(X < 4) = ?$
 
@@ -34,4 +34,28 @@ $$P(X < 4) = F(4) =
 {\frac{4-2}{7-2}} =
 {\frac{2}{5}} =
 0,4
+$$
+
+### Exponential Distribution:
+
+In the Ministry of Silly Walks, there are usually 12 visitors per hour. What is the possibility, that 10 minutes pass without any visitors coming in?
+
+> X = what is the passing time amount
+
+$P(X > 10) = 1 - F(10)$
+
+Usually 12 visitors come in an hour. So time passing between visitors is usually $\frac{60}{12}=5$. This is the $E(X)$, expected value.
+
+$E(X) = \frac{1}{λ} = 5$
+
+$λ = \frac{1}{5} = 0,2$
+
+$$F(10) =
+\begin{cases}
+0,  & \text{x ≤ 0} \\
+{1-e^{-λx}}, & \text{0 < x} \\
+\end{cases} = 
+{1-e^{-0,2*10}} =
+{e^{-2}} =
+0,135
 $$
