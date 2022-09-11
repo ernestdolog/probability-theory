@@ -10,7 +10,7 @@ $X = \text{number of picked blue balls}$
 
 $Y = \text{number of picked red balls}$
 
-![Common and Marginal Distributions 2](https://github.com/ernestdolog/probability-theory/blob/main/assets/continous_probability_distribution_1.png)
+![Common and Marginal Distributions 2](https://github.com/ernestdolog/probability-theory/blob/main/assets/common-and-marginal-distribution_1.png)
 
 This is calculated with the help of [combinatorics](https://github.com/ernestdolog/probability-theory/tree/main/1-combinatorics#there-are-20-people-who-can-win-5-sort-of-gifts-how-many-ways-is-it-possible-if-one-person-can-only-win-one-gift-but-gifts-are-all-the-very-same).
 
