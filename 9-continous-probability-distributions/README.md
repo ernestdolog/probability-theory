@@ -20,4 +20,18 @@ We are waiting a phone call. (yay! 😱) Call will come between 2p.m. and 7p.m.,
 
 $P(X < 4) = ?$
 
-$P(X < 4) = F(4) = \cases{0|x ≤ A|\frac{x-A|B-A}|A < x ≤ B|1|B < x} = \cases{0|x ≤ 2|\frac{x-2|7-2}|2 < x ≤ 7|1|7< x} = \frac{4-2|7-2} = \frac{2|5} = 0,4$
+$$P(X < 4) = F(4) =
+\begin{cases}
+0,  & \text{x ≤ A} \\
+{\frac{x-A}{B-A}}, & \text{A < x ≤ B} \\
+1,  & \text{B < x} \\
+\end{cases} = 
+\begin{cases}
+0,  & \text{x ≤ 2} \\
+{\frac{x-2}{7-2}}, & \text{2 < x ≤ 7} \\
+1,  & \text{7 < x} \\
+\end{cases} = 
+{\frac{4-2}{7-2}} =
+{\frac{2}{5}} =
+0,4
+$$
